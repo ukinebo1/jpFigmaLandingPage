@@ -106,6 +106,7 @@ p, li{
     padding: 2%;
     border: none;
     margin-top: 3%;
+    border-radius: 8px;
 }
 
 .section1 .section1_img{
@@ -172,7 +173,7 @@ p, li{
     width: 50%;
     background-color: #FFFFFF;
     z-index: 1;
-    padding: 4% 1%;
+    padding: 4% 0%;
 }
 
 .section3_text p{
@@ -196,6 +197,11 @@ p, li{
 .section3_img{
     width: 50%;
 }
+
+.section3_img img{
+    width: 100%;
+}
+
 
 .lists{
     padding-left: 7%;
@@ -250,6 +256,10 @@ p, li{
     .section1_text {
         text-align: center;
         margin-bottom: 5%;
+    }
+    .section1_text button{
+        width: 100%;
+        
     }
 
     .section3{
